@@ -27,7 +27,7 @@ login_manager = LoginManager(app)
 login_manager.login_view = "login"
 
 # ✅ Initialize Gemini client
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # IntaSend keys (placeholder)
 INTASEND_PUBLIC = os.getenv("INTASEND_PUBLIC")
@@ -199,7 +199,7 @@ def api_generate_recipe():
     )
 
     try:
-        model = genai.GenerativeModel("gemini-2.0-flash")
+        model = genai.GenerativeModel("gemini-2.5-pro")
         response = model.generate_content(prompt)
         recipe_text = response.text.strip()
     except Exception as e:
