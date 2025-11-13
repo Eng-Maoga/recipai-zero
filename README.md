@@ -3,7 +3,9 @@
 A beautiful web application that generates nutritious, low-waste recipes from ingredients users already have. Built to support **UN SDG 2: Zero Hunger** by promoting sustainable food usage and reducing food waste.
 
 **Live demo:** [https://hungerchef.up.railway.app/](https://hungerchef.up.railway.app/)
+
 **Pitchdeck:** [https://www.canva.com/design/DAG4k1JoeTo/b1M9L6oDd4JMFJsLrkg4Ig/edit?utm_content=DAG4k1JoeTo&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton]
+
 **Source:** [https://github.com/Eng-Maoga/recipai-zero.git](https://github.com/Eng-Maoga/recipai-zero.git)
 
 ## ✨ What it does
